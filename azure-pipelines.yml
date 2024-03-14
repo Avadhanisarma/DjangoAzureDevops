@@ -15,7 +15,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: azureagent
+      vmImage: djangoagent
     steps:
     - task: Docker@2
       displayName: Build an image
